@@ -23,12 +23,12 @@ logger = logging.getLogger(__name__)
 
 TELEGRAM_TOKEN = ''
 PAYMENTS_TOKEN = ''
-# 1395243934 - admin
-ADMIN_ID = 5408719356 #2
-DATABASE_URL = "mkuriecw.beget.tech"
-DATABASE_USER = "mkuriecw_bot"
-DATABASE_PASSWORD = "3SVSJZBx&dNZ"
-DATABASE_NAME = "mkuriecw_bot"
+
+ADMIN_ID =  #2
+DATABASE_URL = ""
+DATABASE_USER = ""
+DATABASE_PASSWORD = ""
+DATABASE_NAME = ""
 
 def check_payment_token():
     if not PAYMENTS_TOKEN:
@@ -49,10 +49,10 @@ def connect_db():
     try:
         connection = pymysql.connect(
             host=DATABASE_URL,
-            port=3306,
-            user=DATABASE_USER,
-            password=DATABASE_PASSWORD,
-            database=DATABASE_NAME
+            port=,
+            user=,
+            password=,
+            database=
         )
         return connection
     except Exception as e:
