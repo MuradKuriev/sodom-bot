@@ -21,8 +21,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-TELEGRAM_TOKEN = '8141792493:AAF3KCEtZhPvySttD8BeCtcR98AcMIIS7I0'
-PAYMENTS_TOKEN = '1744374395:TEST:4e04d31aef45e54573bc'
+TELEGRAM_TOKEN = ''
+PAYMENTS_TOKEN = ''
 # 1395243934 - admin
 ADMIN_ID = 5408719356 #2
 DATABASE_URL = "mkuriecw.beget.tech"
