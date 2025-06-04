@@ -37,7 +37,7 @@ def check_payment_token():
     
     if PAYMENTS_TOKEN.startswith('TEST'):
         logger.info("Using TEST payment token")
-    elif PAYMENTS_TOKEN.startswith('1744374395:'):
+    elif PAYMENTS_TOKEN.startswith(':'):
         logger.info("Using live payment token")
     else:
         logger.error(f"Invalid payment token format: {PAYMENTS_TOKEN}")
