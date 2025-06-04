@@ -64,7 +64,7 @@ def conn():
     try:
         connection = pymysql.connect(
             host=DATABASE_URL,
-            port=3306,
+            port=,
             user=DATABASE_USER,
             password=DATABASE_PASSWORD,
             database=DATABASE_NAME
